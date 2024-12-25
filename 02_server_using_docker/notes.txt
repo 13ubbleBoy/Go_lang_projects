@@ -1,0 +1,11 @@
+--> The purpose of the "Dockerfile" is to create a executable version of "main.go" file. 
+    We will build our "main.go" file here.
+
+--> to run this project.
+    1. Run docker desktop application.
+    2. Go to the directory.
+    3. run command "docker build -t docker-test ." , 'docker-test' is the name of the directory.
+    4. run command "docker run -p 8080:4000 -it docker-test".
+    5. Now go to browser and replace the url "localhost:8080".
+    OR "localhost:8080/hi"
+       
